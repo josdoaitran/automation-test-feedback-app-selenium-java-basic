@@ -12,6 +12,7 @@ In order to control your browser and do the actions in your browser. We need to 
   + Chrome Driver Link: https://chromedriver.chromium.org
   + Firefox - Geckodriver link: https://firefox-source-docs.mozilla.org/testing/geckodriver/Support.html
 
+If you're using Macbook/MacOSX, please download driver for Mac and extract it into `/usr/local/bin`
 
 ## Create a Java project
 Class: `TestFeedbackApp`
@@ -32,3 +33,14 @@ public class TestFeedbackApp {
 `
 intChromeDriver.close();
 `
+
+### To maximize or minimize browsers in test:
+`intChromeDriver.manage().window().maximize();
+intChromeDriver.manage().window().minimize();
+`
+To switch to Full Screen mode:
+`intChromeDriver.manage().window().fullscreen();`
+
+
+## Connect to Postgres DB
+https://jdbc.postgresql.org/download.html
