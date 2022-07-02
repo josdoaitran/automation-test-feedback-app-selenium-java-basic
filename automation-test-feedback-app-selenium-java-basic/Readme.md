@@ -43,4 +43,10 @@ To switch to Full Screen mode:
 
 
 ## Connect to Postgres DB
-https://jdbc.postgresql.org/download.html
+Link: https://jdbc.postgresql.org/download.html
+
+- Download: postgresql-42.4.0.jar library
+- Add Library into project.
+- Create method to connect db
+- Method to delete DB
+- Method to query to BD and verify.
