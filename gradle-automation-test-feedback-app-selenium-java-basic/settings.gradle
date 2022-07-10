@@ -1,2 +1,3 @@
 rootProject.name = 'gradle-automation-test-feedback-app-selenium-java-basic'
+include 'test'
 
